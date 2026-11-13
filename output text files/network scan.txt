@@ -1,0 +1,59 @@
+WEEK 02 - NETWORK SCANNING OUTPUT
+=================================
+
+Tool: Nmap (through Zenmap)
+
+Command:
+nmap -sn 192.168.0.103/24
+
+Scan Type:
+Ping Scan / Host Discovery
+
+Network:
+192.168.0.0/24
+
+Scan Date:
+13 November 2026
+
+Total IP Addresses Scanned:
+256
+
+Scan Duration:
+2.92 seconds
+
+Active Hosts Found:
+3
+
+ACTIVE HOSTS
+------------
+
+1. 192.168.0.1
+2. 192.168.0.103
+3. 192.168.0.105
+
+MAC ADDRESS OBSERVATIONS
+------------------------
+
+- MAC addresses were identified for 2 out of 3 active hosts.
+- 192.168.0.1:
+  MAC: 98:25:4A:25:FC:8E
+  Vendor: TP-Link Systems
+- 192.168.0.105:
+  MAC: 16:F2:CE:84:C8:C3
+  Vendor: Unknown
+- 192.168.0.103:
+  No MAC address displayed in the scan output.
+
+NETWORK DISCOVERY SUMMARY
+-------------------------
+
+- 256 IP addresses scanned.
+- 3 active hosts discovered.
+- 2 MAC addresses identified.
+- Host discovery performed using Nmap Ping Scan.
+- Network topology visualized using Zenmap.
+
+Purpose:
+To identify active devices on the local network,
+observe their MAC address information, and visualize
+network connections using Nmap and Zenmap.
