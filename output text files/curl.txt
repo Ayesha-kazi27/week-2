@@ -1,0 +1,33 @@
+WEEK 02 - HTTP HEADER ANALYSIS
+==============================
+
+Target: https://networkwalks.com
+Tool: cURL (-I)
+
+Objective:
+To inspect the HTTP response headers and identify
+server information, security policies, cookies, and
+other web server configurations.
+
+Identified Information:
+- HTTP Status: 200 OK
+- Web Server: Apache
+- Content-Type: text/html; charset=UTF-8
+- Referrer-Policy: no-referrer-when-downgrade
+- Permissions-Policy: Detected
+- Set-Cookie: __wpdm_client
+- Cookie Attributes: Secure, HttpOnly
+- WordPress REST API: /wp-json/
+- Cache Headers: X-Endurance-Cache-Level and X-nginx-cache
+
+Observation:
+The server successfully returned an HTTP 200 response.
+The headers revealed server details, WordPress API
+endpoints, cookie attributes, caching information,
+and browser security policies.
+
+Conclusion:
+This exercise provided practical experience in
+HTTP header inspection and understanding how response
+headers expose useful information about a website's
+server configuration and security-related settings.

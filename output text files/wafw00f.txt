@@ -1,0 +1,28 @@
+WEEK 02 - WEB APPLICATION FIREWALL DETECTION
+=============================================
+
+Target: https://networkwalks.com
+Tool: WAFW00F v2.4.2
+
+Objective:
+To identify whether the target website is protected
+by a Web Application Firewall (WAF) and determine
+the WAF technology in use.
+
+Identified Information:
+- WAF Detected: Yes
+- WAF Technology: ModSecurity
+- WAF Vendor: SpiderLabs
+- Requests Sent: 2
+- Target: https://networkwalks.com
+
+Observation:
+WAFW00F successfully identified ModSecurity
+(SpiderLabs) as the Web Application Firewall
+protecting the target website after two requests.
+
+Conclusion:
+This exercise provided practical experience in
+WAF fingerprinting and understanding how web
+application firewalls help protect websites by
+filtering and monitoring incoming HTTP requests.
