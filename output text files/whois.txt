@@ -1,0 +1,35 @@
+WEEK 02 - WHOIS DOMAIN RECONNAISSANCE
+=====================================
+
+Target: networkwalks.com
+Tool: WHOIS Lookup
+
+Objective:
+To gather publicly available domain registration details,
+including domain age, registrar, expiry date, and DNS
+configuration.
+
+Identified Information:
+- Domain Creation Date: 06 November 2019
+- Last Updated: 12 November 2025
+- Expiry Date: 06 November 2027
+- Registrar: GoDaddy.com, LLC
+- Domain Status: Client Transfer, Update, Renew and Delete Prohibited
+- Name Servers:
+  - NS6135.HOSTGATOR.COM
+  - NS6136.HOSTGATOR.COM
+- DNSSEC: Unsigned
+- Registrant Information: Privacy protected through Domains By Proxy, LLC
+- Registrant Country: United States
+
+Observation:
+The WHOIS lookup revealed the domain's registration
+timeline, registrar, DNS name servers, and domain status.
+The registrant's personal details are protected through
+a domain privacy service.
+
+Conclusion:
+This exercise provided practical experience in domain
+reconnaissance and understanding how WHOIS information
+can reveal publicly available domain registration and
+DNS-related details.

@@ -1,0 +1,26 @@
+WEEK 02 - DNS RECONNAISSANCE
+===========================
+
+Target: networkwalks.com
+Tool: NSLookup
+
+Objective:
+To resolve the target domain name and identify its
+corresponding IP address using DNS lookup.
+
+Identified Information:
+- DNS Server: 192.168.0.1
+- DNS Server Address: 192.168.0.1#53
+- Domain Name: networkwalks.com
+- Resolved IPv4 Address: 192.232.216.135
+- Response Type: Non-authoritative answer
+
+Observation:
+NSLookup successfully resolved networkwalks.com to
+the IP address 192.232.216.135 using the configured
+DNS server.
+
+Conclusion:
+This exercise provided practical experience in DNS
+lookup and understanding how domain names are translated
+into IP addresses during the reconnaissance phase.

@@ -1,0 +1,35 @@
+WEEK 02 - WEB TECHNOLOGY FINGERPRINTING
+======================================
+
+Target: https://networkwalks.com
+Tool: WhatWeb
+
+Objective:
+To identify the technologies, frameworks, CMS, and server
+configuration used by the target website.
+
+Identified Technologies:
+- Web Server: Apache
+- CMS: WordPress 7.1.4
+- Plugin: WordPress Download Manager 3.3.76
+- Frontend Framework: Bootstrap
+- JavaScript Library: jQuery 3.7.1
+- Web Technology: HTML5
+- Analytics: Google Tag Manager
+
+HTTP Response Analysis:
+- HTTP (Port 80): 301 Moved Permanently
+- HTTPS (Port 443): 200 OK
+- HTTP traffic redirects to the HTTPS version of the website.
+
+Observation:
+WhatWeb successfully identified the website's underlying
+technology stack, including its CMS, plugins, server software,
+and frontend libraries. It also detected cookies and HTTP
+response headers.
+
+Conclusion:
+This exercise provided hands-on experience with web
+technology fingerprinting and helped develop an understanding
+of how publicly exposed website technologies can be identified
+during the initial reconnaissance phase of a security assessment.
