@@ -1,0 +1,36 @@
+WEEK 02 - DNS ENUMERATION
+========================
+
+Target: networkwalks.com
+Tool: DNSRecon
+
+Objective:
+To enumerate DNS records and identify publicly available
+DNS infrastructure and mail server information associated
+with the target domain.
+
+Identified Information:
+- SOA Record: ns6135.hostgator.com
+- Name Servers:
+  - ns6135.hostgator.com - 50.87.144.87
+  - ns6136.hostgator.com - 192.232.216.131
+- DNS Server Software: BIND 9.16.23-RH (version detected)
+- A Record: 192.232.216.135
+- MX Record: mail.networkwalks.com (192.232.216.135)
+- TXT Records: Google site verification and SPF policy
+- SRV Records: 8 autodiscover records pointing to cPanel email discovery services
+- DNSSEC Query: No answer received
+
+Observation:
+DNSRecon identified the domain's name servers, SOA,
+A, MX, TXT, and SRV records. It also detected BIND
+version information on the name servers and identified
+email discovery services associated with cPanel.
+
+Conclusion:
+This exercise provided practical experience in DNS
+enumeration and understanding how DNS records reveal
+domain infrastructure, mail configuration, and related
+services during reconnaissance.
+
+Total Records Found: 8 SRV records
